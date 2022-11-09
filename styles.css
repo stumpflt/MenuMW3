@@ -1,0 +1,117 @@
+@font-face {
+    font-family: fontMW3;
+    src: url(BankGothicBold.ttf);
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(17, 17, 17), rgba(85, 85, 85, 0.404)), url("images/mw3.jpg") ;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: fontMW3;
+}
+
+.playonline {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 260px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.playonline:hover {opacity: 1}
+.playonline:hover {background-color: grey; padding-left: 03px; background-blend-mode: overlay;}
+
+.splitscreen {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 248px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.splitscreen:hover {opacity: 1}
+.lanparty {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 281px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.lanparty:hover {opacity: 1}
+.ELITE {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 329px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.ELITE:hover {opacity: 1}
+.VAULT:hover {opacity: 1}
+.VAULT {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 324px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.STORE {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 316px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.STORE:hover {opacity: 1}
+.OPTIONS {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 295px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.OPTIONS:hover {opacity: 1}
+.MAINMENU {
+    color: white;
+    font-family: fontMW3;
+    position: relative;
+    left: 270px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.MAINMENU:hover {opacity: 1}
+.desc {
+    font-family: fontMW3;
+    color: white;
+    position: relative;
+    left: 48px;
+
+}
+
+.desc2 {
+    font-family: fontMW3;
+    color: white;
+    position: relative;
+    left: 173px;
+    
+    
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 915px;
+    position: absolute;
+    left: 394px;
+    margin-left: -3px;
+    top: 0;
+  }
